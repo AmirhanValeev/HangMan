@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik+Glitch&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Rubik+Glitch&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="modal">
+        <form action="">
+            <h2>Настройки</h2>
+            <button id="Loner">Одиночная</button>
+            <button id="multiPlayer">Мультиплеер</button>
+        </form>
+    </div>
+    <div id="wordModal" class="wordModal">
+        <form action="">
+            <h2>Введи слово</h2>
+            <input id="wordInput" type="text">
+            <button id="wordButton">Загадать</button>
+        </form>
+    </div>
+    <form action="">
+        <h1 id="title">Виселица</h1>
+        <img id="image" src="hangman0.png" alt="">
+        <h3 id="shifr"></h3>
+        <input id="playerInput" type="text" maxlength="1" placeholder="?" required>
+        <button id="checkButton">Проверить букву</button>
+        <button id="newButton" type="button">Новая игра</button>
+        <button id="settings" type="button">Настройки</button>
+        <p id="pipi">Использованные буквы:</p>
+    </form> 
+    <script src="script.js" type="module"></script>
+</body>
+</html>
+<!-- Домашнее задание: -->
+<!-- 1.Повторять код -->
