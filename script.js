@@ -28,6 +28,9 @@ modal.onclick = function () {
     console.log("окно закройся");
     modal.style.transform = "translateY(-100%)"
 }
+image.onclick = function () {
+    
+}
 settings.onclick = function () {
     console.log("Настройки");
     modal.style.transform = "translateY(0)"
