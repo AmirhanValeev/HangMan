@@ -16,6 +16,9 @@ let wordModal = document.getElementById("wordModal")
 let planet = "I don't know"
 let wordButton = document.getElementById("wordButton")
 let wordInput = document.getElementById("wordInput")
+for (let i = 32; i < 1025; i = i * 2 ) {
+    console.log(i);
+}
 shifr.innerHTML = "*".repeat(secretWord.length)
 wordButton.onclick = function (event) {
     event.preventDefault();
@@ -29,7 +32,7 @@ modal.onclick = function () {
     modal.style.transform = "translateY(-100%)"
 }
 image.onclick = function () {
-    
+
 }
 settings.onclick = function () {
     console.log("Настройки");
